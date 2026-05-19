@@ -7,21 +7,21 @@ The goal is to identify suspicious login activity by analyzing logs and creating
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Splunk
 - Windows Event viewer
 - Hydra
 
 ---
 
-## ⚔️ Attack Simulation
+## Attack Simulation
 - Simulated brute-force login attempts using Hydra
 - Generated multiple failed authentication logs
 - Logs ingested into Splunk for analysis
 
 ---
 
-## 🔍 Detection & Analysis
+## Detection & Analysis
 
 ### Key SPL Queries:
 - Top 10 Failed Logon Attempts
@@ -34,7 +34,7 @@ The goal is to identify suspicious login activity by analyzing logs and creating
 
 ---
 
-## 📊 Screenshots
+## Screenshots
 
 ### Brute Force Attack Simulation
 ![Attack](screenshots/hydra-attack.jpeg)
@@ -54,14 +54,14 @@ The goal is to identify suspicious login activity by analyzing logs and creating
 
 ---
 
-## 🎯 Outcome
+## Outcome
 - Successfully detected brute-force attack patterns
 - Built dashboard for visualization
 - Gained hands-on experience in SOC-level log analysis
 
 ---
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 - Log analysis
 - Threat detection
 - SPL (Splunk Processing Language)
